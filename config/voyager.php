@@ -137,6 +137,13 @@ return [
                 'icon_class' => 'voyager-home',
                 'target_blank' => true,
             ],
+            'Google信箱' => [
+                'route' => 'https://mail.google.com',
+                'icon_class' => 'voyager-google-plus',
+                'target_blank' => true,
+                // 是否開啟新分頁
+            ],
+
             'voyager::generic.logout' => [
                 'route' => 'voyager.logout',
                 'icon_class' => 'voyager-power',
